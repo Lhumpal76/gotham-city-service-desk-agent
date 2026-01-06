@@ -1,0 +1,6 @@
+pydantic-ai
+sentence-transformers
+faiss-cpu
+numpy
+langchain
+langchain-community

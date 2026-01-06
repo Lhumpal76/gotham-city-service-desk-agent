@@ -1,0 +1,204 @@
+{
+  "tickets": [
+    {
+      "id": 1,
+      "title": "Poison gas in subway",
+      "assigned_to": "Batman",
+      "status": "closed",
+      "priority": "high",
+      "resolution": "Detected the gas canisters using sensors, evacuated civilians, and neutralized the toxins using his portable filtration units."
+    },
+    {
+      "id": 3,
+      "title": "Break-in at Wayne Tower #7",
+      "assigned_to": "Batman",
+      "status": "closed",
+      "priority": "high",
+      "resolution": "Coordinated with Commissioner Gordon to track stolen property, then ambushed the intruder while ensuring civilians remained safe."
+    },
+    {
+      "id": 4,
+      "title": "Missing person report - Sarah Chen",
+      "assigned_to": "Commissioner Gordon",
+      "status": "open",
+      "priority": "high",
+      "resolution": null
+    },
+    {
+      "id": 5,
+      "title": "Break-in at Wayne Tower #3",
+      "assigned_to": "Batman",
+      "status": "closed",
+      "priority": "high",
+      "resolution": "Disguised himself and infiltrated the suspect's hideout, using stealth tactics to disable traps and capture the intruder safely."
+    },
+    {
+      "id": 6,
+      "title": "Arson at Gotham Docks",
+      "assigned_to": "Commissioner Gordon",
+      "status": "closed",
+      "priority": "high",
+      "resolution": "Led firefighters to contain the blaze, examined evidence, and arrested the arsonist for prosecution."
+    },
+    {
+      "id": 7,
+      "title": "Riddler's cryptic message broadcast citywide",
+      "assigned_to": "Batman",
+      "status": "open",
+      "priority": "critical",
+      "resolution": null
+    },
+    {
+      "id": 8,
+      "title": "Penguin smuggling rare birds",
+      "assigned_to": "Commissioner Gordon",
+      "status": "closed",
+      "priority": "low",
+      "resolution": "Tracked Penguin to the docks, intercepted his shipment, and returned the birds safely to the sanctuary."
+    },
+    {
+      "id": 9,
+      "title": "Gang war escalating in Crime Alley",
+      "assigned_to": "Commissioner Gordon",
+      "status": "open",
+      "priority": "high",
+      "resolution": null
+    },
+    {
+      "id": 10,
+      "title": "Mugging spree in Narrows",
+      "assigned_to": "Batman",
+      "status": "closed",
+      "priority": "medium",
+      "resolution": "Tracked patterns of the muggings, used disguise to catch suspects in the act, and returned stolen goods."
+    },
+    {
+      "id": 11,
+      "title": "Break-in at Wayne Tower #1",
+      "assigned_to": "Batman",
+      "status": "closed",
+      "priority": "high",
+      "resolution": "Investigated the crime scene, gathered fingerprints and security footage, then set a trap using a decoy to lure the intruder into custody."
+    },
+    {
+      "id": 12,
+      "title": "Scarecrow's fear toxin released at Gotham University",
+      "assigned_to": "Batman",
+      "status": "open",
+      "priority": "critical",
+      "resolution": null
+    },
+    {
+      "id": 13,
+      "title": "Break-in at Wayne Tower #9",
+      "assigned_to": "Batman",
+      "status": "closed",
+      "priority": "high",
+      "resolution": "Mapped out all entry points and escape routes in Wayne Tower, set surveillance traps, and apprehended the intruder without raising alarms."
+    },
+    {
+      "id": 14,
+      "title": "Bank heist foiled at Gotham Bank",
+      "assigned_to": "Batman",
+      "status": "closed",
+      "priority": "high",
+      "resolution": "Analyzed the heist plans, predicted the timing, and disabled the robbers' getaway using advanced surveillance and grappling hooks."
+    },
+    {
+      "id": 15,
+      "title": "Suspicious activity at Arkham Asylum perimeter",
+      "assigned_to": "Batman",
+      "status": "open",
+      "priority": "medium",
+      "resolution": null
+    },
+    {
+      "id": 16,
+      "title": "Break-in at Wayne Tower #5",
+      "assigned_to": "Batman",
+      "status": "closed",
+      "priority": "high",
+      "resolution": "Set up a controlled bait scenario in the tower lobby, monitored remotely, and captured the intruder using non-lethal gadgets."
+    },
+    {
+      "id": 17,
+      "title": "False alarms in Gotham Police HQ",
+      "assigned_to": "Commissioner Gordon",
+      "status": "closed",
+      "priority": "low",
+      "resolution": "Investigated alarm triggers, recalibrated the system, and confirmed there was no threat."
+    },
+    {
+      "id": 18,
+      "title": "Cyberattack on Gotham City infrastructure",
+      "assigned_to": "Unassigned",
+      "status": "open",
+      "priority": "critical",
+      "resolution": null
+    },
+    {
+      "id": 19,
+      "title": "Break-in at Wayne Tower #8",
+      "assigned_to": "Batman",
+      "status": "closed",
+      "priority": "high",
+      "resolution": "Installed tracking devices on the intruder's known accomplices, anticipated their movements, and captured the main suspect using grappling and stealth tactics."
+    },
+    {
+      "id": 20,
+      "title": "Smuggling operation in East End",
+      "assigned_to": "Batman",
+      "status": "closed",
+      "priority": "medium",
+      "resolution": "Disguised as a buyer, followed the smugglers to their warehouse, and coordinated a midnight raid to secure the contraband."
+    },
+    {
+      "id": 21,
+      "title": "Break-in at Wayne Tower #2",
+      "assigned_to": "Batman",
+      "status": "closed",
+      "priority": "high",
+      "resolution": "Analyzed break-in patterns and used night-vision drones to track movement, cornering the intruder on the rooftop and apprehending him without collateral damage."
+    },
+    {
+      "id": 22,
+      "title": "Break-in at Wayne Tower #6",
+      "assigned_to": "Batman",
+      "status": "closed",
+      "priority": "high",
+      "resolution": "Used forensic evidence to deduce the intruder's identity, followed him through Gotham's alleyways, and incapacitated him with precise timing and agility."
+    },
+    {
+      "id": 23,
+      "title": "Hack into Wayne Enterprises servers",
+      "assigned_to": "Batman",
+      "status": "closed",
+      "priority": "high",
+      "resolution": "Traced the hacker's IP, infiltrated their network, and secured sensitive company data without alerting the perpetrator."
+    },
+    {
+      "id": 24,
+      "title": "Break-in at Wayne Tower #4",
+      "assigned_to": "Batman",
+      "status": "closed",
+      "priority": "high",
+      "resolution": "Examined surveillance data and predicted the intruder's next target, intercepting him mid-action and recovering stolen goods."
+    },
+    {
+      "id": 25,
+      "title": "Break-in at Wayne Tower #10",
+      "assigned_to": "Batman",
+      "status": "closed",
+      "priority": "high",
+      "resolution": "Monitored financial and digital records to locate the intruder, then executed a tactical interception on the roof, retrieving stolen items safely."
+    },
+    {
+      "id": 26,
+      "title": "Break-in at Wayne Tower #11",
+      "assigned_to": "Unassigned",
+      "status": "open",
+      "priority": "high",
+      "resolution": null
+    }
+  ]
+}
