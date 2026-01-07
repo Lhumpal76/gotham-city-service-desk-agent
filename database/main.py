@@ -2,7 +2,7 @@ import sys
 import os
 
 # Import the database setup and FAISS setup modules
-import setup_db
+from setup_db import main as setup_db
 from setup_faiss import main as setup_faiss
 from test_faiss import main as test_faiss
 
@@ -15,7 +15,8 @@ def main():
     print("=" * 50)
 
     print("\nStep 1: Setting up the SQLite database...")
-    # The setup_db module runs automatically on import, so we don't need to call anything here
+    # Run the database setup
+    setup_db()
 
     print("\nStep 2: Creating the FAISS index...")
     # Run the FAISS setup

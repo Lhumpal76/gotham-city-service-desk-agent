@@ -6,6 +6,8 @@ from langchain_community.embeddings import HuggingFaceEmbeddings
 import os
 
 def main():
+    os.environ["TRANSFORMERS_CACHE"] = "database/models"
+
     print("Setting up FAISS index from database records...")
 
     # Connect to the database
@@ -35,7 +37,7 @@ def main():
         ticket_dicts.append(ticket_dict)
 
     # Use HuggingFaceEmbeddings to wrap the SentenceTransformer model
-    embeddings_model = HuggingFaceEmbeddings(model_name="all-MiniLM-L6-v2")
+    embeddings_model = HuggingFaceEmbeddings(model_name="all-MiniLM-L6-v2", cache_folder="database/models")
 
     # Prepare texts and metadata for FAISS
     texts = []
@@ -66,10 +68,12 @@ def main():
     )
 
     # Save the FAISS index to disk
+    # We're directly creating and saving our own file, so default serialization is fine
+    # Use relative path "./faiss_index" when running from database directory
     vectorstore.save_local("database/faiss_index")
 
     print(f"Number of embeddings: {len(texts)}")
-    print(f"FAISS index saved to database/faiss_index")
+    print(f"FAISS index saved to ./faiss_index")
 
 if __name__ == "__main__":
     main()

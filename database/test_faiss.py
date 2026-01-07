@@ -23,11 +23,16 @@ def main():
     """Test loading the FAISS index and performing similarity searches."""
     print("Loading FAISS index from database/faiss_index...")
 
-    # Initialize the same embedding model
-    embeddings_model = HuggingFaceEmbeddings(model_name="all-MiniLM-L6-v2")
+    # Initialize the same embedding model with caching
+    embeddings_model = HuggingFaceEmbeddings(
+        model_name="all-MiniLM-L6-v2",
+        cache_folder="database/models"  # This will use the cached model
+    )
 
     # Load the FAISS index from disk
-    vectorstore = FAISS.load_local("database/faiss_index", embeddings_model)
+    # Set allow_dangerous_deserialization=True since we're loading our own file
+    # Use relative path "./faiss_index" when running from database directory
+    vectorstore = FAISS.load_local("database/faiss_index", embeddings_model, allow_dangerous_deserialization=True)
 
     print(f"FAISS index loaded successfully with {vectorstore.index.ntotal} vectors")
 

@@ -1,46 +1,53 @@
 import sqlite3
 import json
 
-# Open and read the JSON file
-with open("database/tickets.json", "r") as file:
-    data = json.load(file)
+def main():
+    """
+    Create and populate the SQLite database from tickets.json
+    """
+    # Open and read the JSON file
+    with open("database/tickets.json", "r") as file:
+        data = json.load(file)
 
-# Create database and connect
-conn = sqlite3.connect('database/gotham_service_desk.db')
-cursor = conn.cursor()
+    # Create database and connect
+    conn = sqlite3.connect('database/gotham_service_desk.db')
+    cursor = conn.cursor()
 
-# Create tickets table
-cursor.execute('''
-CREATE TABLE IF NOT EXISTS tickets (
-    id INTEGER PRIMARY KEY,
-    title TEXT NOT NULL,
-    assigned_to TEXT,
-    status TEXT NOT NULL,
-    priority TEXT NOT NULL,
-    resolution TEXT
-)
-''')
-
-# Insert tickets from JSON file
-for ticket in data['tickets']:
+    # Create tickets table
     cursor.execute('''
-        INSERT OR REPLACE INTO tickets (id, title, assigned_to, status, priority, resolution)
-        VALUES (?, ?, ?, ?, ?, ?)
-    ''', (
-        ticket['id'],
-        ticket['title'],
-        ticket['assigned_to'],
-        ticket['status'],
-        ticket['priority'],
-        ticket.get('resolution')  # Use .get() to handle None values
-    ))
+    CREATE TABLE IF NOT EXISTS tickets (
+        id INTEGER PRIMARY KEY,
+        title TEXT NOT NULL,
+        assigned_to TEXT,
+        status TEXT NOT NULL,
+        priority TEXT NOT NULL,
+        resolution TEXT
+    )
+    ''')
 
-# Commit changes
-conn.commit()
+    # Insert tickets from JSON file
+    for ticket in data['tickets']:
+        cursor.execute('''
+            INSERT OR REPLACE INTO tickets (id, title, assigned_to, status, priority, resolution)
+            VALUES (?, ?, ?, ?, ?, ?)
+        ''', (
+            ticket['id'],
+            ticket['title'],
+            ticket['assigned_to'],
+            ticket['status'],
+            ticket['priority'],
+            ticket.get('resolution')  # Use .get() to handle None values
+        ))
 
-# Verify the data
-cursor.execute('SELECT COUNT(*) FROM tickets')
-print(f"Total tickets inserted: {cursor.fetchone()[0]}")
+    # Commit changes
+    conn.commit()
 
-conn.close()
-print("\nDatabase created successfully: database/gotham_service_desk.db")
+    # Verify the data
+    cursor.execute('SELECT COUNT(*) FROM tickets')
+    print(f"Total tickets inserted: {cursor.fetchone()[0]}")
+
+    conn.close()
+    print("\nDatabase created successfully: ./gotham_service_desk.db")
+
+if __name__ == "__main__":
+    main()
