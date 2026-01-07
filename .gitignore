@@ -1,1 +1,7 @@
 database/gotham_service_desk.db
+database/faiss_index/
+database/models/
+*/__pycache__/
+__pycache__/
+*.py[cod]
+*$py.class
