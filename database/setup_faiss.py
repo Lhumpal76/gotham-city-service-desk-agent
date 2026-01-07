@@ -16,7 +16,7 @@ def main():
 
     # Query tickets with non-null resolutions
     cursor.execute('''
-        SELECT id, title, assigned_to, status, priority, resolution
+        SELECT id, title, assigned_to, status, priority, resolution, description
         FROM tickets
         WHERE resolution IS NOT NULL
     ''')
@@ -45,7 +45,7 @@ def main():
 
     for ticket in ticket_dicts:
         # Text to embed - combine title and resolution
-        text = f"Title: {ticket['title']} Resolution: {ticket['resolution']}"
+        text = f"Title: {ticket['title']} Description: {ticket['description']}"
         texts.append(text)
 
         # Metadata - keep all ticket information for retrieval
@@ -55,7 +55,8 @@ def main():
             "assigned_to": ticket["assigned_to"],
             "status": ticket["status"],
             "priority": ticket["priority"],
-            "resolution": ticket["resolution"]
+            "resolution": ticket["resolution"],
+            "description": ticket["description"]
         }
         metadatas.append(metadata)
 

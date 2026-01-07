@@ -6,7 +6,8 @@
       "assigned_to": "Batman",
       "status": "closed",
       "priority": "high",
-      "resolution": "Detected the gas canisters using sensors, evacuated civilians, and neutralized the toxins using his portable filtration units."
+      "resolution": "Detected the gas canisters using sensors, evacuated civilians, and neutralized the toxins using his portable filtration units.",
+      "description": "Toxic gas threat detected in subway system."
     },
     {
       "id": 3,
@@ -14,7 +15,8 @@
       "assigned_to": "Batman",
       "status": "closed",
       "priority": "high",
-      "resolution": "Coordinated with Commissioner Gordon to track stolen property, then ambushed the intruder while ensuring civilians remained safe."
+      "resolution": "Coordinated with Commissioner Gordon to track stolen property, then ambushed the intruder while ensuring civilians remained safe.",
+      "description": "Unauthorized entry at Wayne Tower."
     },
     {
       "id": 4,
@@ -22,7 +24,8 @@
       "assigned_to": "Commissioner Gordon",
       "status": "open",
       "priority": "high",
-      "resolution": null
+      "resolution": null,
+      "description": "Report of a missing Gotham City resident."
     },
     {
       "id": 5,
@@ -30,7 +33,8 @@
       "assigned_to": "Batman",
       "status": "closed",
       "priority": "high",
-      "resolution": "Disguised himself and infiltrated the suspect's hideout, using stealth tactics to disable traps and capture the intruder safely."
+      "resolution": "Disguised himself and infiltrated the suspect's hideout, using stealth tactics to disable traps and capture the intruder safely.",
+      "description": "Security breach at Wayne Tower."
     },
     {
       "id": 6,
@@ -38,7 +42,8 @@
       "assigned_to": "Commissioner Gordon",
       "status": "closed",
       "priority": "high",
-      "resolution": "Led firefighters to contain the blaze, examined evidence, and arrested the arsonist for prosecution."
+      "resolution": "Led firefighters to contain the blaze, examined evidence, and arrested the arsonist for prosecution.",
+      "description": "Fire intentionally set at dock facilities."
     },
     {
       "id": 7,
@@ -46,7 +51,8 @@
       "assigned_to": "Batman",
       "status": "open",
       "priority": "critical",
-      "resolution": null
+      "resolution": null,
+      "description": "Citywide broadcast of Riddler's cryptic clues."
     },
     {
       "id": 8,
@@ -54,7 +60,8 @@
       "assigned_to": "Commissioner Gordon",
       "status": "closed",
       "priority": "low",
-      "resolution": "Tracked Penguin to the docks, intercepted his shipment, and returned the birds safely to the sanctuary."
+      "resolution": "Tracked Penguin to the docks, intercepted his shipment, and returned the birds safely to the sanctuary.",
+      "description": "Illegal transport of exotic birds."
     },
     {
       "id": 9,
@@ -62,7 +69,8 @@
       "assigned_to": "Commissioner Gordon",
       "status": "open",
       "priority": "high",
-      "resolution": null
+      "resolution": null,
+      "description": "Increasing gang violence in Crime Alley."
     },
     {
       "id": 10,
@@ -70,7 +78,8 @@
       "assigned_to": "Batman",
       "status": "closed",
       "priority": "medium",
-      "resolution": "Tracked patterns of the muggings, used disguise to catch suspects in the act, and returned stolen goods."
+      "resolution": "Tracked patterns of the muggings, used disguise to catch suspects in the act, and returned stolen goods.",
+      "description": "Series of robberies targeting civilians."
     },
     {
       "id": 11,
@@ -78,7 +87,8 @@
       "assigned_to": "Batman",
       "status": "closed",
       "priority": "high",
-      "resolution": "Investigated the crime scene, gathered fingerprints and security footage, then set a trap using a decoy to lure the intruder into custody."
+      "resolution": "Investigated the crime scene, gathered fingerprints and security footage, then set a trap using a decoy to lure the intruder into custody.",
+      "description": "Unauthorized entry at Wayne Tower."
     },
     {
       "id": 12,
@@ -86,7 +96,8 @@
       "assigned_to": "Batman",
       "status": "open",
       "priority": "critical",
-      "resolution": null
+      "resolution": null,
+      "description": "Release of fear-inducing chemical at a university."
     },
     {
       "id": 13,
@@ -94,7 +105,8 @@
       "assigned_to": "Batman",
       "status": "closed",
       "priority": "high",
-      "resolution": "Mapped out all entry points and escape routes in Wayne Tower, set surveillance traps, and apprehended the intruder without raising alarms."
+      "resolution": "Mapped out all entry points and escape routes in Wayne Tower, set surveillance traps, and apprehended the intruder without raising alarms.",
+      "description": "Security breach at Wayne Tower."
     },
     {
       "id": 14,
@@ -102,7 +114,8 @@
       "assigned_to": "Batman",
       "status": "closed",
       "priority": "high",
-      "resolution": "Analyzed the heist plans, predicted the timing, and disabled the robbers' getaway using advanced surveillance and grappling hooks."
+      "resolution": "Analyzed the heist plans, predicted the timing, and disabled the robbers' getaway using advanced surveillance and grappling hooks.",
+      "description": "Attempted robbery at Gotham Bank."
     },
     {
       "id": 15,
@@ -110,7 +123,8 @@
       "assigned_to": "Batman",
       "status": "open",
       "priority": "medium",
-      "resolution": null
+      "resolution": null,
+      "description": "Unusual activity spotted near Arkham Asylum."
     },
     {
       "id": 16,
@@ -118,7 +132,8 @@
       "assigned_to": "Batman",
       "status": "closed",
       "priority": "high",
-      "resolution": "Set up a controlled bait scenario in the tower lobby, monitored remotely, and captured the intruder using non-lethal gadgets."
+      "resolution": "Set up a controlled bait scenario in the tower lobby, monitored remotely, and captured the intruder using non-lethal gadgets.",
+      "description": "Unauthorized entry at Wayne Tower."
     },
     {
       "id": 17,
@@ -126,7 +141,8 @@
       "assigned_to": "Commissioner Gordon",
       "status": "closed",
       "priority": "low",
-      "resolution": "Investigated alarm triggers, recalibrated the system, and confirmed there was no threat."
+      "resolution": "Investigated alarm triggers, recalibrated the system, and confirmed there was no threat.",
+      "description": "Triggered alarms found to be false."
     },
     {
       "id": 18,
@@ -134,7 +150,8 @@
       "assigned_to": "Unassigned",
       "status": "open",
       "priority": "critical",
-      "resolution": null
+      "resolution": null,
+      "description": "Digital attack affecting city systems."
     },
     {
       "id": 19,
@@ -142,7 +159,8 @@
       "assigned_to": "Batman",
       "status": "closed",
       "priority": "high",
-      "resolution": "Installed tracking devices on the intruder's known accomplices, anticipated their movements, and captured the main suspect using grappling and stealth tactics."
+      "resolution": "Installed tracking devices on the intruder's known accomplices, anticipated their movements, and captured the main suspect using grappling and stealth tactics.",
+      "description": "Unauthorized entry at Wayne Tower."
     },
     {
       "id": 20,
@@ -150,7 +168,8 @@
       "assigned_to": "Batman",
       "status": "closed",
       "priority": "medium",
-      "resolution": "Disguised as a buyer, followed the smugglers to their warehouse, and coordinated a midnight raid to secure the contraband."
+      "resolution": "Disguised as a buyer, followed the smugglers to their warehouse, and coordinated a midnight raid to secure the contraband.",
+      "description": "Illegal smuggling in Gotham's East End."
     },
     {
       "id": 21,
@@ -158,7 +177,8 @@
       "assigned_to": "Batman",
       "status": "closed",
       "priority": "high",
-      "resolution": "Analyzed break-in patterns and used night-vision drones to track movement, cornering the intruder on the rooftop and apprehending him without collateral damage."
+      "resolution": "Analyzed break-in patterns and used night-vision drones to track movement, cornering the intruder on the rooftop and apprehending him without collateral damage.",
+      "description": "Security breach at Wayne Tower."
     },
     {
       "id": 22,
@@ -166,7 +186,8 @@
       "assigned_to": "Batman",
       "status": "closed",
       "priority": "high",
-      "resolution": "Used forensic evidence to deduce the intruder's identity, followed him through Gotham's alleyways, and incapacitated him with precise timing and agility."
+      "resolution": "Used forensic evidence to deduce the intruder's identity, followed him through Gotham's alleyways, and incapacitated him with precise timing and agility.",
+      "description": "Unauthorized entry at Wayne Tower."
     },
     {
       "id": 23,
@@ -174,7 +195,8 @@
       "assigned_to": "Batman",
       "status": "closed",
       "priority": "high",
-      "resolution": "Traced the hacker's IP, infiltrated their network, and secured sensitive company data without alerting the perpetrator."
+      "resolution": "Traced the hacker's IP, infiltrated their network, and secured sensitive company data without alerting the perpetrator.",
+      "description": "Cyber intrusion at Wayne Enterprises."
     },
     {
       "id": 24,
@@ -182,7 +204,8 @@
       "assigned_to": "Batman",
       "status": "closed",
       "priority": "high",
-      "resolution": "Examined surveillance data and predicted the intruder's next target, intercepting him mid-action and recovering stolen goods."
+      "resolution": "Examined surveillance data and predicted the intruder's next target, intercepting him mid-action and recovering stolen goods.",
+      "description": "Unauthorized entry at Wayne Tower."
     },
     {
       "id": 25,
@@ -190,7 +213,8 @@
       "assigned_to": "Batman",
       "status": "closed",
       "priority": "high",
-      "resolution": "Monitored financial and digital records to locate the intruder, then executed a tactical interception on the roof, retrieving stolen items safely."
+      "resolution": "Monitored financial and digital records to locate the intruder, then executed a tactical interception on the roof, retrieving stolen items safely.",
+      "description": "Security breach at Wayne Tower."
     },
     {
       "id": 26,
@@ -198,7 +222,8 @@
       "assigned_to": "Unassigned",
       "status": "open",
       "priority": "high",
-      "resolution": null
+      "resolution": null,
+      "description": "Unauthorized entry at Wayne Tower."
     }
   ]
 }
