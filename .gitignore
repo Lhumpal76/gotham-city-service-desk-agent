@@ -5,3 +5,6 @@ database/models/
 __pycache__/
 *.py[cod]
 *$py.class
+
+# Settings file with sensitive information
+settings.py
